@@ -1,5 +1,6 @@
 const geocode = require('./geocode/geocode')
 const getWeather = require('./WeatherApi/getWeather')
+const port = process.env.PORT || 8081;
 var express = require("express");
 var app = express();
 
@@ -60,6 +61,6 @@ app.use("*", function (req, res) {
     res.sendFile(path + "404.html");
 });
 
-app.listen(8081, function () {
-    console.log('Example app listening on port localhost:8081 !')
+app.listen(port, function () {
+    console.log(`Example app listening on port localhost: ${port} `);
 })

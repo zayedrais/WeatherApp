@@ -34,7 +34,6 @@ $(document).ready(function () {
                 console.log("ERROR: ", e);
             }
         });
-
         // Reset FormData after Posting
         resetData();
 
