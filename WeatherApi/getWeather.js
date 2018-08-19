@@ -3,7 +3,7 @@ const request =require('request');
 
 var getWeather = (lat,lon,callback) => {
     request ({
-        url: `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=47d4faed8ac5819ab1e805525716ee78`,
+        url: `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=Give your APPCode`,
         json: true
     },(error,response,body)=>
     {
