@@ -5,7 +5,7 @@ Here we are making a web app, where users can type in a city name and get real-t
 
 Before going to this tutorial, we need pre-setup for the project build.
 
-Live project Demo here Weather App
+Live project Demo here <a href=https://weather-nodejs.herokuapp.com >Weather App </a>
 <h3>Pre-Project Setup</h3>
 
 Here’s what you’ll need:
@@ -163,7 +163,10 @@ Now open your browser and visit:- localhost:8081, type a city name into the fiel
 <pre>
 http://localhost:8081/
 </pre>
-App demo: Live Weather App site
+App demo: Live <a href=https://weather-nodejs.herokuapp.com >Weather App site <a>
+  <br>
+Full tutorial in <a href=http://www.tecoquest.com/2018/09/08/build-a-weather-website-with-node-js-express-googlemap-openweather>Tecoquest</a>
+
 
  
 
