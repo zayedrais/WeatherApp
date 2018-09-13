@@ -6,6 +6,22 @@ Here we are making a web app, where users can type in a city name and get real-t
 Before going to this tutorial, we need pre-setup for the project build.
 
 Live project Demo here <a href=https://weather-nodejs.herokuapp.com >Weather App </a>
+</br>
+<b>File structure look like-</b>
+<pre>
+|WeatherApp
+ |--WeatherApi
+   |--getWeather.js
+ |--geocode
+   |--geocode.js
+ |--public
+   |--js
+      |--postrequest.js
+ |--views
+    |--index.html
+ |--app.js
+ |--package.json
+ </pre>
 <h3>Pre-Project Setup</h3>
 
 Here’s what you’ll need:
